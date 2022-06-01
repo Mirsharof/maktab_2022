@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +11,29 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <!-- fontuchun link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <!-- для слайдера -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
+
 <body>
     <nav>
         <div class="container nav_container">
-            <a href="index.html"><h4>Maktab</h4></a>
-<ul class="nav_menu">
-    <li><a href="index.html">Bosh sahifa</a></li>
-    <li><a href="about.html">Biz haqimizda</a></li>
-    <li><a href="course.html">Kurslar</a></li>
-    <li><a href="contact.html">Aloqa</a></li>
-</ul>
-<button id="open-menu-btn"><i class='bx bx-menu'></i></button>
-<button id="close-menu-btn"><i class='bx bx-window-close' ></i></button>
-<button id="close-menu-btn"><i class='bx bxs-like bx-tada'></i></button>
+            <a href="index.html">
+                <h4>Maktab</h4>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="about.html">Biz haqimizda</a></li>
+                <li><a href="course.html">Kurslar</a></li>
+                <li><a href="contact.html">Aloqa</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class='bx bx-menu'></i></button>
+            <button id="close-menu-btn"><i class='bx bx-window-close'></i></button>
+            <button id="close-menu-btn"><i class='bx bxs-like bx-tada'></i></button>
 
         </div>
     </nav>
@@ -36,7 +44,8 @@
             <div class="header_left">
                 <h1>doimo izlaning</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatibus, obcaecati minima voluptas nesciunt odio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatibus, obcaecati minima
+                    voluptas nesciunt odio?
                 </p>
                 <a href="course.html" class="btn btn-primary">Boshlang</a>
             </div>
@@ -55,7 +64,9 @@
         <div class="container categories_container">
             <div class="categories_left">
                 <h1>Kategoriyalar</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis tempore dolorum magnam officia. Minima labore asperiores reprehenderit soluta optio impedit nihil magnam perferendis iusto?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis tempore dolorum
+                    magnam officia. Minima labore asperiores reprehenderit soluta optio impedit nihil magnam perferendis
+                    iusto?</p>
                 <a href="#" class="btn">Ko'proq...</a>
             </div>
             <div class="categories_right">
@@ -93,9 +104,293 @@
         </div>
     </section>
     <!-- ============END CATEGORIES=========== -->
+    <section class="courses">
+        <h2>Popular courses</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_img">
+                    <img src="./images/Back to school with note paper and learning tools.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Website UI Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquid blanditiis nisi rerum libero
+                        ipsa nemo quibusdam in deleniti pariatur?</p>
+                    <a href="course.html" class="btn btn-primary">Learn more</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course_img">
+                    <img src="./images/Back to school with note paper and learning tools.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Website UI Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquid blanditiis nisi rerum libero
+                        ipsa nemo quibusdam in deleniti pariatur?</p>
+                    <a href="course.html" class="btn btn-primary">Learn more</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course_img">
+                    <img src="./images/Back to school with note paper and learning tools.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Website UI Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquid blanditiis nisi rerum libero
+                        ipsa nemo quibusdam in deleniti pariatur?</p>
+                    <a href="course.html" class="btn btn-primary">Learn more</a>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+
+    <!-- ============FAQ CONTAINER========== -->
 
 
 
+    <section class="faqs">
+        <h2>KO'P TAKRORLANADIGAN SAVOLLAR</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon"><i class='bx bx-plus'></i></div>
+                <div class="question_answer">
+                    <h4>savolni to'liq o'qing</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo debitis repudiandae placeat dicta
+                        dolor tempora libero nobis odio quaerat. Blanditiis natus excepturi id?</p>
+                </div>
+            </article>
+         
+        </div>
+    </section>
+
+
+    <!-- =============ishtirokchilarrninf izohlari============ -->
+
+    <section class="container testish_container mySwiper">
+        <h2>test topshirganlar</h2>
+        <div class="swiper-wrapper">
+            <article class="testish swiper-slide">
+                <div class="avatar">
+                    <img src="./images/back to school with chat box.jpg" alt="" srcset="">
+
+                </div>
+                <div class="testish_info">
+                    <h5>Jamshid</h5>
+                    <small>Kasbi</small>
+                </div>
+                <div class="testish_body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat alias numquam voluptate iusto
+                        deserunt quo, quos eum doloremque mollitia harum aut maxime accusamus nulla nam.</p>
+                </div>
+            </article>
+            <article class="testish swiper-slide">
+                <div class="avatar">
+                    <img src="./images/back to school with chat box.jpg" alt="" srcset="">
+
+                </div>
+                <div class="testish_info">
+                    <h5>Jamshid</h5>
+                    <small>Kasbi</small>
+                </div>
+                <div class="testish_body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat alias numquam voluptate iusto
+                        deserunt quo, quos eum doloremque mollitia harum aut maxime accusamus nulla nam.</p>
+                </div>
+            </article>
+            <article class="testish swiper-slide">
+                <div class="avatar">
+                    <img src="./images/back to school with chat box.jpg" alt="" srcset="">
+
+                </div>
+                <div class="testish_info">
+                    <h5>Jamshid</h5>
+                    <small>Kasbi</small>
+                </div>
+                <div class="testish_body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat alias numquam voluptate iusto
+                        deserunt quo, quos eum doloremque mollitia harum aut maxime accusamus nulla nam.</p>
+                </div>
+            </article>
+            <article class="testish swiper-slide">
+                <div class="avatar">
+                    <img src="./images/back to school with chat box.jpg" alt="" srcset="">
+
+                </div>
+                <div class="testish_info">
+                    <h5>Jamshid</h5>
+                    <small>Kasbi</small>
+                </div>
+                <div class="testish_body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat alias numquam voluptate iusto
+                        deserunt quo, quos eum doloremque mollitia harum aut maxime accusamus nulla nam.</p>
+                </div>
+            </article>
+            <article class="testish swiper-slide">
+                <div class="avatar">
+                    <img src="./images/back to school with chat box.jpg" alt="" srcset="">
+
+                </div>
+                <div class="testish_info">
+                    <h5>Jamshid</h5>
+                    <small>Kasbi</small>
+                </div>
+                <div class="testish_body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat alias numquam voluptate iusto
+                        deserunt quo, quos eum doloremque mollitia harum aut maxime accusamus nulla nam.</p>
+                </div>
+            </article>
+            <article class="testish swiper-slide">
+                <div class="avatar">
+                    <img src="./images/back to school with chat box.jpg" alt="" srcset="">
+
+                </div>
+                <div class="testish_info">
+                    <h5>Jamshid</h5>
+                    <small>Kasbi</small>
+                </div>
+                <div class="testish_body">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat alias numquam voluptate iusto
+                        deserunt quo, quos eum doloremque mollitia harum aut maxime accusamus nulla nam.</p>
+                </div>
+            </article>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!-- ====================FOOTER CONTAINER============= -->
+
+
+
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>Ta'lim</h4></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consectetur aliquam aspernatur voluptas rerum</p>
+            </div>
+            <div class="footer_2">
+                <h4>yo'nalishlar</h4>
+                <ul class="yunalishlar">
+                    <li><a href="index.html">Bosh sahifa</a></li>
+                    <li><a href="course.html">Topshiriqlar</a></li>
+                    <li><a href="about.html">Biz haqimizda</a></li>
+                    <li><a href="contact.html">Aloqa</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>yo'nalishlar</h4>
+                <ul class="eslatmalar'">
+                    <li><a href="#">Eslatmalar</a></li>
+                    <li><a href="#">Kelishuvlar</a></li>
+                    <li><a href="#">Qoidalar</a></li>
+                    <li><a href="#">Aloqa</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4>Aloqa uchun</h4>
+                <div>
+                    <p>+99 8 99 557 38 70</p>
+                    <p>boss.mirsharof@mail.ru</p>
+                </div>
+                
+                    <ul class="footer_socials">
+                        <li><a href="#"><i class='bx bxl-facebook-circle' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+                        <li><a href="#"><i class='bx bxs-envelope' ></i></a></li>
+                    </ul>
+                
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; Xiamatlar litsenziyalangan </small>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          //когда экран размер >=600px
+          breakpoints:{
+              600:{
+              slidesPerView:2
+              }
+          }
+        });
+      </script>
 </body>
+
 </html>
